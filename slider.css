@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.slider-item {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 200px;
+    color: white;
+    display: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.slider-item:nth-child(1) { background: red; display: flex;}
+.slider-item:nth-child(2) {background: green;}
+.slider-item:nth-child(3) {background: gray;}
+.slider-item:nth-child(4) {background: gold;}
+.slider-item:nth-child(5) {background: blue}
